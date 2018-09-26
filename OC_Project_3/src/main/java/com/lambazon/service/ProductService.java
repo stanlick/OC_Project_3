@@ -16,7 +16,7 @@ public class ProductService {
 
 
     public void save(Product product) {
-        productRepository.save(product);
+       
     }
 
    
@@ -30,6 +30,6 @@ public class ProductService {
 
 
     public void delete(String id) {
-        productRepository.deleteById(id);
+       
     }
 }
